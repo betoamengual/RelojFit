@@ -53,7 +53,7 @@ public class Reloj {
 
     public void incremenetarDia() {
         LocalDate fecha = LocalDate.parse(dia);
-        System.out.println("Hoy es el dia: " + dia);
+        System.out.println("Hoy es el dia: " + fecha);
         System.out.println("Cuantos dias quiere agregar?");
         int diasp = leer.nextInt();
         fecha = fecha.plusDays(diasp);
