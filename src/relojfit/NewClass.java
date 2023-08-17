@@ -9,5 +9,5 @@ package relojfit;
  * @author Fran
  */
 public class NewClass {
-    
+    int pepe;
 }
