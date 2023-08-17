@@ -15,7 +15,9 @@ public class RelojFit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Reloj r1 = new Reloj("2023-08-17","13:30");
+        //r1.incremenetarDia();
+        //r1.incrementarHora();
     }
     
 }
