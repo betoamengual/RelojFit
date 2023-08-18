@@ -14,6 +14,7 @@ public class Persona {
     private float altura;
     private int edad;
     private Reloj reloj;
+    private int ez;
 
     public Persona(String nombre, String apellido, float altura, int edad, Reloj reloj) {
         this.nombre = nombre;
@@ -43,7 +44,7 @@ public class Persona {
      public void asociarReloj(Reloj reloj) {
         this.reloj = reloj;
     }
-     
+     //mi aporte
      public void verHora() {
         if (reloj != null) {
             System.out.print(nombre + " " + apellido + " mira el reloj. ");
